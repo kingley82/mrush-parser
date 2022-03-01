@@ -203,3 +203,11 @@ coliseum_info = mrush.coliseum()
 **rating** - Ваш рейтинг в колизее  
 **league** - Ваша лига в колизее  
 **season_end** - Время до конца сезона
+## Узнать информацию об амулете
+В этой функции мы можем узнать информацию о своем или чужом амулете
+```python
+import mrush
+mrush = mrush.Client("nickname", "password")
+amulet_info = mrush.amulet()
+```
+Мы также можем узнать информацию о чужом амулете
